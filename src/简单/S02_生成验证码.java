@@ -1,6 +1,5 @@
 package 简单;
 
-import java.util.Random;
 import java.util.Scanner;
 
 /*
@@ -15,7 +14,6 @@ public class S02_生成验证码 {
         String str = sc.nextLine();
         if ("GET".equals(str)) {
             StringBuilder sb = new StringBuilder();
-            Random r = new Random();
             for (int i = 0; i < 6; i++) {
                 int n = (int) (Math.random() * 10);
                 sb.append(n);
