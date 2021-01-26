@@ -17,7 +17,7 @@ import java.util.Scanner;
     读取文件white_list.txt中内容，并判断输入的IP地址是否在白名单内，如果不在白名单，则在命令行输出:“该IP地址不允许访问网络”；
     如果在白名单内，则在命令行输出：“该IP地址可以访问网络”。
  */
-public class S06_文件IO操作 {
+public class S06_判断IP地址是否合法 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("D:\\Test\\white_list.txt"));
         String line = null;
